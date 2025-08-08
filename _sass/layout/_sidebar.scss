@@ -175,12 +175,11 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    justify-content: center;
+    gap: 0.8rem;
     margin-bottom: 1.5rem;
 
     @include bp.xxxl {
-      padding-left: 2.75rem;
       margin-bottom: 1.75rem;
     }
 
@@ -211,14 +210,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       @extend %button;
       @extend %sidebar-link-hover;
       @extend %clickable-transition;
-
-      &:not(:last-child) {
-        margin-right: v.$sb-btn-gap;
-
-        @include bp.xxxl {
-          margin-right: v.$sb-btn-gap-lg;
-        }
-      }
     }
 
     i {
@@ -255,4 +246,12 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       transform: translateX(v.$sidebar-width);
     }
   }
+}
+
+.sidebar-bottom a[href="https://twitter.com/username"],
+.sidebar-bottom a[href="https://www.linkedin.com/in/username"]
+{
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
 }

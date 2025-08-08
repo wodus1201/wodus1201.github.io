@@ -14,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: wodus1201 # the main title
+title: 재연의 개발 블로그 # the main title
 
-tagline: 개발 블로그 # it will display as the subtitle
+tagline: 끄적끄적 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  wodus1201의 개발 블로그
+  wodus의 개발 블로그
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,8 +38,8 @@ social:
   email: lienemapille@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/wodsus1201 # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/wodus1201 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: light
+theme_mode:
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
