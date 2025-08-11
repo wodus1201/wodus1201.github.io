@@ -168,6 +168,12 @@ collections:
   tabs:
     output: true
     sort_by: order
+  트러블슈팅:
+    output: true
+    permalink: /트러블슈팅/:title/
+  학습기록:
+    output: true
+    permalink: /학습기록/:title/
 
 defaults:
   - scope:
