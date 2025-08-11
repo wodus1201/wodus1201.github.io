@@ -171,9 +171,9 @@ collections:
   트러블슈팅:
     output: true
     permalink: /트러블슈팅/:title/
-  학습기록:
+  백준:
     output: true
-    permalink: /학습기록/:title/
+    permalink: /백준/:title/
 
 defaults:
   - scope:
