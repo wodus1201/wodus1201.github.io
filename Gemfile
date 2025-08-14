@@ -6,6 +6,7 @@ gemspec
 
 # gem "jekyll-theme-chirpy"  # 이 줄 주석 처리
 gem "jekyll-remote-theme"
+gem "jekyll-include-cache"
 
 gem "html-proofer", "~> 5.0", group: :test
 
